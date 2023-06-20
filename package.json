@@ -1,0 +1,36 @@
+{
+  "name": "ultrade-react-embed",
+  "version": "1.0.0",
+  "description": "POC of Ultrade react white label lib",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "ngrok": "ngrok start --config ./ngrok.yml myapp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleshaBY/ultrade-react-embed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleshaBY/ultrade-react-embed/issues"
+  },
+  "homepage": "https://github.com/AleshaBY/ultrade-react-embed#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.13",
+    "@types/react-dom": "^18.2.6",
+    "concurrently": "^8.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.4.3",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@perawallet/connect": "^1.2.3",
+    "@ultrade/react-embed": "^0.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
